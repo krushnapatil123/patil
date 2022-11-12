@@ -5,3 +5,4 @@ System.setProperty("webdriver.chrome.driver", "./drivers/chromedriver.exe");
 		Navigation nav = driver.navigate();
 		nav.ref();
 		nav.close();
+		nav.quit();

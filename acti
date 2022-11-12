@@ -3,4 +3,5 @@ System.setProperty("webdriver.chrome.driver", "./drivers/chromedriver.exe");
 		driver.get("https://demo.actitime.com/login.do");
 		driver.get("https://www.facebook.com/");
 		Navigation nav = driver.navigate();
-		nav.back();
+		nav.ref();
+		nav.close();
